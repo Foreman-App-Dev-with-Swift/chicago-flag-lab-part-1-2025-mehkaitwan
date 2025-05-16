@@ -46,45 +46,50 @@ struct ContentView: View {
             VStack {
                 
                 Rectangle()
+                    .padding(.top, -10.0)
                     .foregroundColor(.white)
                     .frame(width: 500, height: 50)
                 ZStack {
                     Rectangle()
+                        .padding(.top, -10.0)
                         .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                     .frame(width: 500, height: 50)
                 }
                 ZStack {
                     Rectangle()
+                        .padding(.vertical, -10.0)
                         .foregroundColor(.white)
-                        .frame(width: 500, height: 100)
+                        .frame(width: 500, height: 87)
                     
                     HStack {
                         Image("chicagoStar")
                             .resizable()
                             .foregroundColor(.red)
-                            .frame(width: 50, height: 50)
+                            .frame(width: 55, height: 60)
                         .padding()
                         Image("chicagoStar")
                             .resizable()
                             .foregroundColor(.red)
-                            .frame(width: 50, height: 50)
+                            .frame(width: 55, height: 60)
                         .padding()
                         Image("chicagoStar")
                             .resizable()
                             .foregroundColor(.red)
-                            .frame(width: 50, height: 50)
+                            .frame(width: 55, height: 60)
                         .padding()
                         Image("chicagoStar")
                             .resizable()
                             .foregroundColor(.red)
-                            .frame(width: 50, height: 50)
+                            .frame(width: 55, height: 60)
                         .padding()
                     }
                 }
                 Rectangle()
+                    .padding(.bottom, -10.0)
                     .foregroundColor(.blue)
                     .frame(width: 500, height: 50)
                 Rectangle()
+                    .padding(.bottom, -10.0)
                     .foregroundColor(.white)
                     .frame(width: 500, height: 50)
             }
